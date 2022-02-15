@@ -51,6 +51,16 @@ Publish the website in the given URL.
 </body>
 
 
+### rectangle.component.html:
+<div>
+    <h2>Area of a Rectangle</h2>
+    Length = <input  type="text" [(ngModel)]="length"> Meters<br>
+    Breadth = <input [(ngModel)]="breadth"type ="text">Meters<br>
+    <input type="button" (click)="onCalculate()" value="calculate"><br>
+    Area=<input [value]="area" type="text" >Meter<sup>2</sup>
+</div>
+
+
 
 ## OUTPUT:
 
