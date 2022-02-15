@@ -52,7 +52,9 @@ Publish the website in the given URL.
 </body>
 
 
+
 ### rectangle.component.html
+
 
 <div>
     <h2>Area of a Rectangle</h2>
@@ -63,7 +65,9 @@ Publish the website in the given URL.
 </div>
 
 
+
 ### cylinder.component.html
+
 
 <div>
     <h2>Area of a Cylinder</h2>
@@ -72,6 +76,7 @@ Publish the website in the given URL.
     <input type="button" (click)="onCycCalculate()" value="calculate"><br>
     Area=<input [value]="area" type="text" >Meter<sup>2</sup>
 </div>
+
 
 ### app.component.ts:
 
@@ -139,7 +144,6 @@ export class CylinderComponent{
 }
 
 ### app.component.css:
-
 .container{
     background-color: sky blue;
     text-align: center;
@@ -158,7 +162,6 @@ h1{
 }
 
 ### app.module.ts:
-
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -181,7 +184,6 @@ import { RectangleComponent } from './rectangle/rectangle.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
 
 
 ## OUTPUT:
