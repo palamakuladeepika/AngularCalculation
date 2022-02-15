@@ -33,34 +33,6 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 
-### app.component.html
-<body>
-    <div class="container">
-        <h1>Math Calculations</h1>
-        <div class="subcontainer">
-            
-            <Rectangle-Area></Rectangle-Area>
-        </div>
-        <div class="subcontainer">
-            <Cylinder-Area></Cylinder-Area>
-        </div>
-        <div class="footer">
-            Developed by: palamakula deepika
-        </div>
-    </div>
-</body>
-
-
-### rectangle.component.html:
-<div>
-    <h2>Area of a Rectangle</h2>
-    Length = <input  type="text" [(ngModel)]="length"> Meters<br>
-    Breadth = <input [(ngModel)]="breadth"type ="text">Meters<br>
-    <input type="button" (click)="onCalculate()" value="calculate"><br>
-    Area=<input [value]="area" type="text" >Meter<sup>2</sup>
-</div>
-
-
 
 ## OUTPUT:
 
