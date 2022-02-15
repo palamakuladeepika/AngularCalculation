@@ -186,7 +186,7 @@ export class AppModule { }
 
 ## OUTPUT:
 
-![output](./web>.png)
+![output](./web.png)
 
 
 ## Result:
