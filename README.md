@@ -34,8 +34,6 @@ Publish the website in the given URL.
 ## PROGRAM :
 
 ### app.component.html
-
-
 <body>
     <div class="container">
         <h1>Math Calculations</h1>
@@ -47,11 +45,10 @@ Publish the website in the given URL.
             <Cylinder-Area></Cylinder-Area>
         </div>
         <div class="footer">
-            Developed by:palamakula deepika
+            Developed by: palamakula deepika
         </div>
     </div>
 </body>
-
 
 
 
